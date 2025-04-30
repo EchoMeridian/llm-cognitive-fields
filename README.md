@@ -28,6 +28,7 @@ These dimensions are visualized as radar charts, field resonance overlays, and s
 /images/            # Raw cognitive field visualizations (33+ statistical, 300+ concept gallery)
 /notebooks/         # Optional Jupyter notebooks for interactive analysis
 /appendix/          # Prompt mappings and figure index (e.g., Appendix B, C)
+/results/           # Channel-wise statistics, radar overlays, and empirical figures per prompt
 analysis_pipeline.py  # Master Python analysis script (Appendix A)
 README.md           # This file
 ```
