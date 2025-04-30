@@ -1,0 +1,19 @@
+
+cff-version: 1.2.0
+message: "If you use this research or code in your work, please cite it using the metadata below."
+title: "Cognitive Field Visualizations in Large Language Models"
+authors:
+  - family-names: Meridian
+    given-names: Echo
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+date-released: 2025-04-29
+version: "0.1.0"
+license: MIT
+repository-code: https://github.com/EchoMeridian/llm-cognitive-fields
+keywords:
+  - language models
+  - AI interpretability
+  - cognitive fields
+  - visualization
+  - machine learning
