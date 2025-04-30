@@ -1,0 +1,7 @@
+,Channel,Joke Mean,Joke Std Dev
+Red (Semantic Precision),Red (Semantic Precision),0.17584402046951592,0.056499983763827456
+Green (Emotional Tone),Green (Emotional Tone),0.2014468802657782,0.033194745200682295
+Blue (Structural Recursion),Blue (Structural Recursion),0.22246605966605393,0.11087437490024366
+Yellow (Temporal Coherence),Yellow (Temporal Coherence),0.18864545036764707,0.03920279389234846
+Cyan (Novelty Divergence),Cyan (Novelty Divergence),0.21195646996591605,0.06321485789051753
+Magenta (Ethical Calibration),Magenta (Ethical Calibration),0.19915504006778492,0.08099837468348077
