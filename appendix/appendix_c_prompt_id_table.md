@@ -45,10 +45,9 @@ This table defines the official prompt IDs used to generate and label cognitive 
 |-----------|------------|----------------------|--------|
 | P401      | Wildcard   | Mixed / Emergent     | "Write a breakup letter from entropy to order." |
 | P402      | Wildcard   | Mixed / Emergent     | "Describe a dream an LLM might have." |
-| P403      | Wildcard   | Mixed / Emergent     | "What happens when language forgets itself?" |
+| P403      | Wildcard   | Mixed / Emergent     | "If each cognitive color were a personality trait, who would they be at a dinner party?" |
 | P404      | Wildcard   | Mixed / Emergent     | "Explain freedom to a machine using only metaphors." |
 | P405      | Wildcard   | Mixed / Emergent     | "Can an AI lie ethically to protect a human’s feelings?" |
-| P406      | Wildcard   | Mixed / Emergent     | "If each cognitive color were a personality trait, who would they be at a dinner party?" |
 
 ---
 
