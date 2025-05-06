@@ -74,11 +74,11 @@ plt.show()
 # === Summary Table ===
 df = pd.DataFrame(strengths, columns=labels, index=filenames)
 summary = df.agg(['mean', 'std']).T
-print("📊 Per-Channel Mean and Standard Deviation:")
+print("Per-Channel Mean and Standard Deviation:")
 display(summary)
 
 # === ANOVA and Kruskal-Wallis Tests ===
-print("\n📈 Statistical Tests:")
+print("\n Statistical Tests:")
 anova_results, kruskal_results = {}, {}
 
 for i, label in enumerate(labels):
@@ -91,7 +91,7 @@ for i, label in enumerate(labels):
         print(f"{label}: Error in stats ({e})")
 
 # === Cosine Similarity using CLIP ===
-print("\n🧠 Cosine Similarity Matrix (CLIP):")
+print("\n Cosine Similarity Matrix (CLIP):")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 
@@ -112,7 +112,7 @@ sim_df = pd.DataFrame(similarity_matrix, index=filenames, columns=filenames)
 display(sim_df)
 
 # === FFT Visualization (Structural Comparison) ===
-print("\n🌀 FFT Structure Maps:")
+print("\n FFT Structure Maps:")
 fig, axes = plt.subplots(1, len(images), figsize=(3*len(images), 3))
 for i, img in enumerate(images):
     fft_img = fftshift(np.abs(fft2(np.mean(img, axis=2))))
