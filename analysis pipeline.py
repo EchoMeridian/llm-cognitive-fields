@@ -27,7 +27,8 @@ def select_image_folder():
     folder_selected = filedialog.askdirectory(title='Select folder containing cognitive field images')
     return folder_selected
 
-image_folder = select_image_folder()
+# === Prompt user to enter image folder path ===
+image_folder = input("Enter the full path to the folder containing cognitive field images: ").strip()
 
 # === Load and Resize Images ===
 image_paths = [os.path.join(image_folder, fname)
