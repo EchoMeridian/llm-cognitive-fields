@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from skimage.metrics import structural_similarity as ssim
 import torch
-import clip
 import pandas as pd
 from scipy.stats import f_oneway, kruskal
 from tkinter import filedialog, Tk
