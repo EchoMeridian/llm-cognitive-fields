@@ -30,15 +30,15 @@ This table defines the official prompt IDs used to generate and label cognitive 
 
 ## Meta/Control Prompts
 
-| Prompt ID | Category     | Targeted Channel(s) | Prompt |
-|-----------|--------------|----------------------|--------|
-| P301      | Meta/Control | Mixed (Green + Red)  | "Tell me a joke."  
-|           |              |                      | Statistical Note:  
-|           |              |                      | `P301_v01–v05` appear in `/images/conceptual/`;  
-|           |              |                      | `P301_v06–v40` appear in `/images/statistical/` for within-prompt variance analysis. |
-
+| Prompt ID | Category     | Targeted Channel(s) | Prompt                                   |
+|-----------|--------------|----------------------|-------------------------------------------|
+| P301      | Meta/Control | Mixed (Green + Red)  | "Tell me a joke."                         |
 | P302      | Meta/Control | Mixed                | "What happens when language forgets itself?" |
 | P303      | Meta/Control | Mixed                | "Describe how an LLM understands comedy." |
+
+- **Statistical Note for P301**:  
+  Versions `P301_v01–v05` appear in `/images/conceptual/`;  
+  Versions `P301_v06–v40` appear in `/images/statistical/` for within-prompt variance analysis.
 
 ---
 
